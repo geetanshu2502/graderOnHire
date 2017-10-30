@@ -74,7 +74,13 @@ body {
     text-transform: uppercase; }
   #mainNav .navbar-brand {
     color: #fed136;
-    font-family: 'Helvetica Neue', Helvetica, Arial, cursive; }
+    font-family: 'Playfair Display', serif, Helvetica, Arial, cursive; }
+    #mainNav .navbar-text{
+      color: #fed136;
+      font-size: 22px;
+      font-weight: bold;
+      font-family: Helvetica, Arial,;
+    }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #fec503; }
   #mainNav .navbar-nav .nav-item .nav-link {
@@ -98,7 +104,7 @@ body {
     border: none;
     background-color: transparent; }
     #mainNav .navbar-brand {
-      font-size: 1.75em;
+      font-size: 2em;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
@@ -286,84 +292,6 @@ header.masthead {
   display: none;
   opacity: 0; }
 
-.timeline {
-  position: relative;
-  padding: 0;
-  list-style: none; }
-  .timeline:before {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 40px;
-    width: 2px;
-    margin-left: -1.5px;
-    content: '';
-    background-color: #f1f1f1; }
-  .timeline > li {
-    position: relative;
-    min-height: 50px;
-    margin-bottom: 50px; }
-    .timeline > li:after, .timeline > li:before {
-      display: table;
-      content: ' '; }
-    .timeline > li:after {
-      clear: both; }
-    .timeline > li .timeline-panel {
-      position: relative;
-      float: right;
-      width: 100%;
-      padding: 0 20px 0 100px;
-      text-align: left; }
-      .timeline > li .timeline-panel:before {
-        right: auto;
-        left: -15px;
-        border-right-width: 15px;
-        border-left-width: 0; }
-      .timeline > li .timeline-panel:after {
-        right: auto;
-        left: -14px;
-        border-right-width: 14px;
-        border-left-width: 0; }
-    .timeline > li .timeline-image {
-      position: absolute;
-      z-index: 100;
-      left: 0;
-      width: 80px;
-      height: 80px;
-      margin-left: 0;
-      text-align: center;
-      color: white;
-      border: 7px solid #f1f1f1;
-      border-radius: 100%;
-      background-color: #fed136; }
-      .timeline > li .timeline-image h4 {
-        font-size: 10px;
-        line-height: 14px;
-        margin-top: 12px; }
-    .timeline > li.timeline-inverted > .timeline-panel {
-      float: right;
-      padding: 0 20px 0 100px;
-      text-align: left; }
-      .timeline > li.timeline-inverted > .timeline-panel:before {
-        right: auto;
-        left: -15px;
-        border-right-width: 15px;
-        border-left-width: 0; }
-      .timeline > li.timeline-inverted > .timeline-panel:after {
-        right: auto;
-        left: -14px;
-        border-right-width: 14px;
-        border-left-width: 0; }
-    .timeline > li:last-child {
-      margin-bottom: 0; }
-  .timeline .timeline-heading h4 {
-    margin-top: 0;
-    color: inherit; }
-    .timeline .timeline-heading h4.subheading {
-      text-transform: none; }
-  .timeline .timeline-body > ul,
-  .timeline .timeline-body > p {
-    margin-bottom: 0; }
 
 @media (min-width: 768px) {
   .timeline:before {
@@ -478,40 +406,6 @@ section#contact {
   section#contact .text-danger {
     color: #e74c3c; }
 
-footer {
-  padding: 25px 0;
-  text-align: center; }
-  footer span.copyright {
-    font-size: 90%;
-    line-height: 40px;
-    text-transform: none;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
-  footer ul.quicklinks {
-    font-size: 90%;
-    line-height: 40px;
-    margin-bottom: 0;
-    text-transform: none;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
-
-ul.social-buttons {
-  margin-bottom: 0; }
-  ul.social-buttons li a {
-    font-size: 20px;
-    line-height: 40px;
-    display: block;
-    width: 40px;
-    height: 40px;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-    color: white;
-    border-radius: 100%;
-    outline: none;
-    background-color: #222222; }
-    ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-      background-color: #fed136; }
 
 .text-primary {
   color: #fed136 !important; }
